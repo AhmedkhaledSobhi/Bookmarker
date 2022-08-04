@@ -1,0 +1,25 @@
+.bg-form
+{
+    background-color: #EEE;
+}
+
+ .w-table
+{
+    background-color: #1167c4 !important;
+    color: white;
+    border: 1px solid #1167c4 !important;
+} 
+
+.allert-eror
+{
+    background-color: #ffb2b2 !important;
+    color: #6d0000 !important;
+    border: 1px solid #6d0000 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    padding: 5px;
+
+
+    border-radius: 5px;
+    text-align: center;
+ }

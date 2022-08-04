@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="container m-auto my-5">
+        <header class="my-5 mx-5">
+            <h2 class="text-muted fw-bolder">Bookmarker</h2>
+        </header>
+            
+        <hr class="mx-4">
+            <div class="mx-5 mt-4 py-3 text-center bg-form shadow ">
+                
+                <h3 class="my-3 fw-bolder">Bookmark your favorite sites</h3>
+
+                <div class="w-75 m-auto mb-sm-4">
+                    <label for="SiteNameInput" class="fw-bolder">Site Name</label>
+                    <input type="text" class="form-control my-2" placeholder="Bookmark Name" id="SiteNameInput">
+                    <div class="" id="erorNotName"></div>
+                    
+                    <label for="WebSiteInput"class="fw-bolder mt-3">Site URL</label>
+                    <input type="email" class="form-control my-2" placeholder="WebSite URL" id="WebSiteInput">
+                    <div class="" id="erorNotUrl"></div>
+
+                    <button onclick="prodactSite();" class="btn w-table my-4">Submit</button>
+                </div>
+
+            </div>
+
+            <div id="addTheNameWeb" class="bg-gradient container mb-3 m-auto  " >
+                    
+            </div>
+        <hr class="mx-4">
+            <footer class="my-5 mx-5">
+                <h5>© 2019 Bookmarker Inc.</h5>
+            </footer>
+            
+        </div>
+       
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
